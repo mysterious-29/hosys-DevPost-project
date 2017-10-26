@@ -3,11 +3,11 @@ Hospital Appointment System
 
 An OpenSource Smart Appointment system to check doctor's availability online, developed on LAMP Stack. Feel Free to contribute.
 
-#Exporting the database:
+#Export the database using:
 
     $ mysqldump -u username -p[pass] HosAppointmentSys > has.sql
 
-#Importing the database:
+#Import the database using:
 
     $ mysql -u username -p[pass] HosAppointmentSys < has.sql     
     
